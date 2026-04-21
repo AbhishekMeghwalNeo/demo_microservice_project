@@ -9,4 +9,6 @@ project_root/
 ├── proto/
 └── shared/
 
+---------------------------------------------------------------------------------------------------
 
+- python -m grpc_tools.protoc -I./proto --python_out=./shared --grpc_python_out=./shared ./proto/user.proto
